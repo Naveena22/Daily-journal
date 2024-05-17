@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Journal - Garden of Life</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        #container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #4CAF50;
+            text-align: center;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            color: #4CAF50;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .text-input {
+            width: 100%;
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Daily Journal - Garden of Life</h1>
+
+        <div class="section">
+            <div class="section-title">Date</div>
+            <input type="date" class="text-input">
+        </div>
+
+        <div class="section">
+            <div class="section-title">To-Do List</div>
+            <ol>
+                <li><input type="text" class="text-input"></li>
+                <li><input type="text" class="text-input"></li>
+                <li><input type="text" class="text-input"></li>
+                <li><input type="text" class="text-input"></li>
+                <li><input type="text" class="text-input"></li>
+                <li><input type="text" class="text-input"></li>
+                <li><input type="text" class="text-input"></li>
+                <li><input type="text" class="text-input"></li>
+                <li><input type="text" class="text-input"></li>
+                <li><input type="text" class="text-input"></li>
+                <li><input type="text" class="text-input"></li>
+                <li><input type="text" class="text-input"></li>
+                <li><input type="text" class="text-input"></li>
+                <li><input type="text" class="text-input"></li>
+                <li><input type="text" class="text-input"></li>
+            </ol>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Mood</div>
+            <div>Morning: <input type="text" class="text-input"></div>
+            <div>Afternoon: <input type="text" class="text-input"></div>
+            <div>Evening: <input type="text" class="text-input"></div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Daily Affirmations</div>
+            <textarea class="text-input" rows="4"></textarea>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Daily Reflection</div>
+            <textarea class="text-input" rows="6"></textarea>
+        </div>
+
+        <div class="section">
+            <div class="section-title">Footnotes</div>
+            <textarea class="text-input" rows="2"></textarea>
+        </div>
+
+        <div class="section">
+            <button class="btn">Save Journal Entry</button>
+        </div>
+    </div>
+</body>
+
+</html>
